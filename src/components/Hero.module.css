@@ -1,0 +1,33 @@
+.main{
+  padding: 30vh 10vw;
+}
+.main p {
+  font-size: 2rem;
+  font-family: 'Domine', serif;
+}
+button{
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border:none;
+}
+button:first-of-type{
+  margin-right: 1rem;
+  background-color: #0b3948;
+  color:white;
+}
+button:first-of-type:hover{
+  background-color: #061c23;
+}
+@media (max-width:480px){
+  .main{
+    padding: 15vh 10vw;
+  }
+  .main p {
+    font-size: 1.8rem;
+  }
+  button{
+    margin-top: 4rem;
+  }
+}

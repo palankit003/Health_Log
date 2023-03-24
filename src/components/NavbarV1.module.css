@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edfce6;
+  padding: 1rem 10vw;
+}
+.linkContainer ul {
+  display: flex;
+  list-style: none;
+}
+.linkContainer ul li{
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.logo{
+  cursor: pointer;
+}
+img{
+  width:150px;
+}
+.mobileLinks{
+  display: none;
+}
+@media (max-width: 480px) {
+  .container ul {
+    display: none;
+  }
+  .container{
+    padding: 1rem;
+  }
+  .navIcon p {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: black;
+    margin: 0.4rem 0rem;
+  }
+  .mobileLinks {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #edfce6cc;
+  }
+
+  .mobileLinks p {
+    text-align: center;
+    padding: 1rem;
+  }
+}
